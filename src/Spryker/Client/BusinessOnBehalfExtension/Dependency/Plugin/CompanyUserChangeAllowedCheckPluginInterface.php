@@ -9,11 +9,11 @@ namespace Spryker\Client\BusinessOnBehalfExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\CustomerTransfer;
 
-interface CustomerChangeAllowedCheckPluginInterface
+interface CompanyUserChangeAllowedCheckPluginInterface
 {
     /**
      * Specification:
-     * - Checks if customer is applicable for change.
+     * - Checks if company user is applicable for change.
      *
      * @api
      *
